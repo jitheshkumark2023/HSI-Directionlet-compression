@@ -1,0 +1,67 @@
+HYPERSPECTRAL IMAGE COMPRESSION /LIFTING BASED DIRECTIONLET/TD WITH HOOI/HUFFMN CODING
+
+The proposed compression framework consists of:
+
+1. Lifting-based Directionlet Transform
+2. Tucker decomposition using HOOI
+3. Entropy coding using Huffman coding
+5. Reconstruction and quality evaluation
+
+## Dataset
+
+The experiments were conducted using publicly available
+hyperspectral image datasets.
+
+## Requirements
+
+- MATLAB R2024a or later
+- Image Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Wavelet Toolbox
+
+## How to Run
+
+1. Download or clone this repository.
+2. Add the MATLAB folder and subfolders to the MATLAB path.
+3. Place the dataset in the specified dataset folder.
+4. Run:mainPROGAM.m
+
+## Evaluation Metrics
+
+The program calculates:
+
+- MSE
+- PSNR
+- Compression Ratio
+- Bits Per Pixel Per Band (bpppb)
+- Compression Time
+
+## Reproducibility
+
+The source code provided here corresponds to the implementation used to generate the experimental results.
+
+MAIN PROGRAM					
+-HSIdirtest0900_Huffman_HOOI
+
+PROGRAM FOR FINDING DOMINENT DIRECTION		
+-covariance_function_hsi
+
+FUNCTIONS-
+dirdwt0m45lift11b33
+dirdwt90m45lift11b33
+dirdwt9045lift11b33
+dirlift045dwtt1b33
+dlift1b33
+finaliftidwt1b33
+ilwtt2b33
+lift045ah1b33
+liftup0451b33
+nsubidwt090liftb33
+re0m45ilwt
+re045ilwt
+re90m45ilwtb33
+re9045ilwt
+subdwt090lift11b33
+waveupsliftb33
+zigzag1
+izigzag
